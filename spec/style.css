@@ -1,0 +1,288 @@
+/*FONTS*/
+@font-face {
+    font-family: NeutraText-BookAlt;
+    src: url('fonts/NeutraText-BookAlt.ttf');
+}
+@font-face {
+    font-family: NeutraText-BookSCItalic;
+    src: url('fonts/NeutraText-BookSCItalic.ttf');
+}
+@font-face {
+    font-family: NeutraText-DemiSC;
+    src: url('fonts/NeutraText-DemiSC.ttf');
+}
+@font-face {
+    font-family: NeutraText-LightAlt;
+    src: url('fonts/NeutraText-LightAlt.ttf');
+}
+@font-face {
+    font-family: NeutraText-LightItalic;
+    src: url('fonts/NeutraText-LightItalic.ttf');
+}
+
+
+
+
+
+/*MAIN ITEMS*/
+body{
+	max-width: 100%;
+	max-height: 100%;
+}
+h1{
+	font-family: NeutraText-DemiSC;
+	font-size: 50pt;
+	text-align: left;
+	color: #2d917f;
+}
+
+h2{
+	font-family: NeutraText-BookAlt;
+	font-size: 18pt;
+	line-height: 10pt;
+	text-align: center;
+	color: #2d917f;
+}
+
+h3{
+	font-family: NeutraText-BookAlt;
+	font-size: 14pt;
+	line-height: 10pt;
+	text-align: center;
+	color: #2d917f;
+}
+p{
+	font-family: NeutraText-BookAlt;
+}
+h4{
+	float: right;
+	padding-right: 10%;
+	font-family: NeutraText-BookAlt;
+	font-size: 20pt;
+	padding-top: 2%;
+	color: white;
+}
+h5{
+	font-family: NeutraText-BookAlt;
+	font-size: 10pt;
+	line-height: 15pt;
+	text-align: right;
+	color: #2d917f;
+}
+h6{
+	font-family: NeutraText-DemiSC;
+	font-size: 15pt;
+	text-align: left;
+	color: #2d917f;
+	line-height: 5pt;
+}
+
+
+
+/*HEADER*/
+header {
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    margin-left: -0.6%;
+    margin-top: 1%;
+    background-color: #2d917f;
+    opacity: 0.4;
+    z-index: 2;
+}
+.logoheader{
+	width: 96px;
+	z-index: 888;
+	position: fixed;
+	padding-left: 1%;
+}
+#logohead{
+	float: right;
+	padding-top: 3%;
+	padding-right: 5%;
+}
+a{
+	color: white;
+}
+#ondergrond{
+	background-color: white;
+	width: 100%;
+	height: 20%;
+	margin-top: 1%;
+	position: fixed;
+	box-shadow: 5px 5px 10px #989898;
+	z-index: 1;
+}
+nav{
+	width: 40%;
+	float: left;
+	padding-top: 2%;
+}
+li{
+	padding-left: 32%;
+	list-style-type: none;
+	font-family: NeutraText-BookAlt;
+	width: 30%;
+}
+#talen{
+	float: left;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*ALL ARTICLES*/
+#article1, #article2, #article3, #article4{
+	/*background-image: url("images/bg1.jpg");*/
+	width: 100%;
+	height: 100vh;
+	padding-top: 10%;
+    margin: 0 auto;
+}
+
+
+
+
+/*ARTICLE1*/
+#article1{
+	background-image: url("images/bg1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logopg1{
+	margin-top: 5%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+
+
+/*ARTICLE2*/
+#article2{
+	height: 100%;
+	width: 100%;
+	border-top: solid 1px red;
+	background-image: url("images/bg2.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+#contentspec{
+	width: 85%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#titels{
+	width: 20%;
+	font-family: NeutraText-BookAlt;
+	font-size: 15pt;
+	text-align: right;
+	color: #2d917f;
+}
+iframe{
+	width: 60%;
+	height: 360px;
+	float: right;
+	position: absolute;
+	top: 150%;
+	left: 30%;
+	z-index: 0;
+	border: none;
+}
+#titellinks{
+	color: #2d917f;
+	display: block;
+}
+#titels a{
+	padding-bottom: 3%;
+}
+
+
+
+
+
+/*ARTICLE3*/
+#article3{
+	height: 100%;
+	width: 100%;
+	border-top: solid 1px red;
+	background-image: url("images/bg3.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+#team{
+	width: 60%;
+	height: 360px;
+	float: right;
+	position: absolute;
+	top: 265%;
+	left: 30%;
+
+}
+#titelspec2{
+	text-align: right;
+}
+/*ARTICLE4*/
+#article4{
+	height: 100%;
+	border-top: solid 1px red;
+}
+#map {
+        height: 300px;
+        width: 50%;
+        margin: 5%;
+        float: right;
+}
+#infopage{
+	text-align: right;
+	font-family: NeutraText-LightAlt;
+	width: 20%;
+	float: left;
+	padding-top: 23%;
+	padding-left: 20%;
+	color: #2d917f;
+	line-height: 2%;
+}
+.email{
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+}
+
+#links{
+	width: 25%;
+	float: left;
+}
+#rechts{
+	width: 25%;
+	float: right;
+}
+#tekstteam{
+	width: 300px;
+}
+#kaderteam{
+	width: 60%;
+}
+
+
+
